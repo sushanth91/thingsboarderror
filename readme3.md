@@ -87,6 +87,7 @@ Launch windows shell (Command Prompt) as Administrator. Change directory to your
 
 Execute install.bat script to install ThingsBoard as a Windows service (or run “install.bat –loadDemo” to install and add demo data). This means it will be automatically started on system startup. Similar, uninstall.bat will remove ThingsBoard from Windows services. The output should be similar to this one:
 
+```bash
 C:\Program Files (x86)\thingsboard>install.bat --loadDemo
 Detecting Java version installed.
 CurrentVersion 110
@@ -94,34 +95,29 @@ Java 11 found!
 Installing thingsboard ...
 ...
 ThingsBoard installed successfully!
-
-
-## Screenshots
-
-![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/6.png)
-
-[Optional] NoSQL Database for timeseries data: Cassandra
-[Not Configured]
-
-Running development environment
-
-Running UI container in hot redeploy mode.
+```
 
 Step 7. Start ThingsBoard service
+
 Now let’s start the ThingsBoard service! Open the command prompt as an Administrator and execute the following command:
 
+```bash
 net start thingsboard
+```
 
 Expected output:
 
+```bash
 The ThingsBoard Server Application service is starting.
 The ThingsBoard Server Application service was started successfully.
+```
 
 In order to restart the ThingsBoard service you can execute following commands:
 
+```bash
 net stop thingsboard
 net start thingsboard
-
+```
 
 
 
