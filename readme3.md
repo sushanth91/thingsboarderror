@@ -1,4 +1,12 @@
 
+## Screenshots
+
+![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/IOTlogin1.png)
+
+![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/IOTsysadmin.png)
+
+![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/IOTtenant.png)
+
 # Installing ThingsBoard on Windows
 
 ## 🔗 Links
@@ -114,15 +122,6 @@ In order to restart the ThingsBoard service you can execute following commands:
 net stop thingsboard
 net start thingsboard
 
-## Screenshots
 
-![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/8.png)
 
-![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/9.png)
 
-![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/10.png)
-
-![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/11.png)
-
-## 🔗 Installing ThingsBoard on Windows
-[Installtion Guide](https://thingsboard.io/docs/user-guide/install/windows/)
