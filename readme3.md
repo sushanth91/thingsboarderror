@@ -2,42 +2,17 @@
 # Installing ThingsBoard on Windows
 
 ## 🔗 Links
-[Thingsbord Contribution Guide](https://thingsboard.io/docs/user-guide/contribution/how-to-contribute/#:~:text=We%20are%20constantly%20looking%20for,(or%20something%20very%20similar).)
+[Thingsbord Contribution Guide](https://thingsboard.io/docs/user-guide/install/windows/?windowsThingsboardQueue=inmemory).)
 
-
-## Run Locally
-
-Clone the project
+Step 1. Install Java 11 (OpenJDK)
 
 ```bash
-  git clone https://github.com/thingsboard/thingsboard.git
+java -version
 ```
-
-Go to the project directory
-
-```bash
- cd D:\thingsboard
-```
-
-Install dependencies
-
-```bash
-npm install -g cross-env 
-
-npm install -g npm@10.5.0
-
-npm install -g webpack 
-
-```
-## Screenshots
-
-![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/1.png)
-
-![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/2.png)
-
-Before importing the project into the IDE please build it using Maven tool from the root folder:
 
 Step 2. ThingsBoard service installation
+Download and extract the package.
+
 ```bash
 https://github.com/thingsboard/thingsboard/releases/download/v3.6.3/thingsboard-windows-3.6.3.zip
 ```
@@ -50,11 +25,10 @@ Create ThingsBoard Database
 
 ![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/6.png)
 
-Step 2. ThingsBoard service installation
 ```bash
 C:\Program Files (x86)\thingsboard\conf\thingsboard.yml
 ```
-Step 2. ThingsBoard service installation
+
 ```bash
 # SQL DAO Configuration
 spring:
@@ -91,10 +65,12 @@ Step 5. [Optional] Memory update for slow machines (1GB of RAM)
 C:\Program Files (x86)\thingsboard\thingsboard.xml
 
 Locate the following lines to the configuration file.
+
 <startargument>-Xms512m</startargument>
 <startargument>-Xmx1024m</startargument>
 
 and change them to
+
 <startargument>-Xms256m</startargument>
 <startargument>-Xmx256m</startargument>
 
@@ -138,19 +114,6 @@ In order to restart the ThingsBoard service you can execute following commands:
 net stop thingsboard
 net start thingsboard
 
-
-Go to the project directory
-
-```bash
- cd D:\thingsboard\ui-ngx
-mvn clean install -P yarn-start
-```
-## Screenshots
-
-![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/7.png)
-
-Running server-side container
-
 ## Screenshots
 
 ![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/8.png)
@@ -161,25 +124,5 @@ Running server-side container
 
 ![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/11.png)
 
-![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/12.png)
-
-![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/13.png)
-
-![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/14.png)
-
-![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/15.png)
-
-![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/16.png)
-
-![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/17.png)
-
-
-
 ## 🔗 Installing ThingsBoard on Windows
-[Error Logs](https://thingsboard.io/docs/user-guide/install/windows/)
-
-
-
-
-
-
+[Installtion Guide](https://thingsboard.io/docs/user-guide/install/windows/)
