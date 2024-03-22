@@ -100,6 +100,9 @@ Installing thingsboard ...
 ...
 ThingsBoard installed successfully!
 ```
+## Screenshots
+
+![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/IOT%20Service%20Installation.png)
 
 Step 7. Start ThingsBoard service
 
