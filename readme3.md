@@ -118,6 +118,9 @@ Expected output:
 The ThingsBoard Server Application service is starting.
 The ThingsBoard Server Application service was started successfully.
 ```
+## Screenshots
+
+![App Screenshot](https://github.com/sushanth91/thingsboarderror/blob/main/IOTstart.png)
 
 In order to restart the ThingsBoard service you can execute following commands:
 
