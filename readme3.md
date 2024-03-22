@@ -74,13 +74,17 @@ C:\Program Files (x86)\thingsboard\thingsboard.xml
 
 Locate the following lines to the configuration file.
 
+```bash
 <startargument>-Xms512m</startargument>
 <startargument>-Xmx1024m</startargument>
+```
 
 and change them to
 
+```bash
 <startargument>-Xms256m</startargument>
 <startargument>-Xmx256m</startargument>
+```
 
 Step 6. Run installation script
 Launch windows shell (Command Prompt) as Administrator. Change directory to your ThingsBoard installation directory.
